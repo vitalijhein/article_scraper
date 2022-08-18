@@ -1,0 +1,6 @@
+scrapy~=2.6.1
+pymongo~=4.1.1
+dnspython
+itemadapter~=0.6.0
+python-dateutil~=2.8.2
+dateparser~=1.1.1

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efba6804-da71-4250-8a50-fda92eb9638d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_scraper/spiders/spiegel_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bq5dOsog8vSGtd6DNXbR3b66ar" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vhein/repo/article_scraper&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/america/cnn_news_crawler/cnn_news_crawler/spiders" />
+      <recent name="$PROJECT_DIR$/america/cnn_news_crawler" />
+      <recent name="$PROJECT_DIR$/america" />
+      <recent name="$PROJECT_DIR$/russian" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CbsSpider - scrapy.cmdline">
+    <configuration name="AbcNewsSpider - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/america/abc_news_crawler/abc_news_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl AbcNewsSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CNNSpider - scrapy.cmdline (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/america/cnn_news_crawler/cnn_news_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl CnnArticleSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CbsSpider - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl CbsSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FoxNewsSpider - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/america/fox_news_crawler/fox_news_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl FoxNewsSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NewIzvSpiderArticles - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/izv_news_crawler/izv_news_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl NewIzvSpiderArticles" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NewsFrontArticleSpider - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl NewsFrontArticleSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RtArticleSpider- scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/rt_com_crawler/rt_com_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl RtArticleSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RtLinkSpider- scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/rt_com_crawler/rt_com_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl RtLinkSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SputnikSpiderArticles - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/sputnik_crawler/sputnik_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl SputnikSpiderArticles" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TassArticleSpider - scrapy.cmdline" type="PythonConfigurationType" factoryName="Python">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/russian/tass_crawler/tass_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy.cmdline" />
+      <option name="PARAMETERS" value="crawl TassArticleSpider" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="politico_link_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/america/politico_scraper" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/america/politico_scraper/politico_link_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrapy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="article_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.10/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.10/bin/scrapy" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.TassArticleSpider - scrapy.cmdline" />
+      <item itemvalue="Python.NewIzvSpiderArticles - scrapy.cmdline" />
+      <item itemvalue="Python.AbcNewsSpider - scrapy.cmdline" />
+      <item itemvalue="Python.CbsSpider - scrapy.cmdline" />
+      <item itemvalue="Python.CNNSpider - scrapy.cmdline (1)" />
+      <item itemvalue="Python.FoxNewsSpider - scrapy.cmdline" />
+      <item itemvalue="Python.RtLinkSpider- scrapy.cmdline" />
+      <item itemvalue="Python.SputnikSpiderArticles - scrapy.cmdline" />
+      <item itemvalue="Python.RtArticleSpider- scrapy.cmdline" />
+      <item itemvalue="Python.NewsFrontArticleSpider - scrapy.cmdline" />
+      <item itemvalue="Python.scrapy" />
+      <item itemvalue="Python.politico_link_scraper" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scrapy" />
+        <item itemvalue="Python.politico_link_scraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efba6804-da71-4250-8a50-fda92eb9638d" name="Changes" comment="" />
+      <created>1657620861142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657620861142</updated>
+      <workItem from="1657620865101" duration="7416000" />
+      <workItem from="1657696989962" duration="10915000" />
+      <workItem from="1657720936580" duration="1979000" />
+      <workItem from="1657779422944" duration="6552000" />
+      <workItem from="1657874244773" duration="1459000" />
+      <workItem from="1657887697124" duration="6667000" />
+      <workItem from="1658126962396" duration="14935000" />
+      <workItem from="1658218734396" duration="5999000" />
+      <workItem from="1658240418530" duration="1373000" />
+      <workItem from="1658307164714" duration="15631000" />
+      <workItem from="1658483801263" duration="3904000" />
+      <workItem from="1658733970008" duration="6661000" />
+      <workItem from="1659610869426" duration="4071000" />
+      <workItem from="1659956485672" duration="3153000" />
+      <workItem from="1660039104360" duration="4627000" />
+      <workItem from="1660045873268" duration="1217000" />
+      <workItem from="1660124517435" duration="864000" />
+      <workItem from="1660125414539" duration="7067000" />
+      <workItem from="1660133425679" duration="528000" />
+      <workItem from="1660134258703" duration="159000" />
+      <workItem from="1660134524167" duration="246000" />
+      <workItem from="1660134799248" duration="3078000" />
+      <workItem from="1660808621261" duration="5132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/pipelines.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/spiders/TassArticleSpider.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/spiders/TassArticleSpider.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/tass_crawler/tass_crawler/spiders/TassArticleSpider.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/article_scraper/spiders/spiegel_spider.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders/NewsFrontArticleSpider.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders/NewsFrontArticleSpider.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders/NewsFrontArticleSpider.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders/NewsFrontArticleSpider.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/america/fox_news_crawler/fox_news_crawler/spiders/FoxNewsSpider.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders/CbsSpider.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders/CbsSpider.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders/CbsSpider.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/russian/rt_com_crawler/rt_com_crawler/spiders/RtLinkSpider.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/america/cnn_news_crawler/cnn_news_crawler/spiders/CnnArticleSpider.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/article_scraper$FoxNewsSpider___scrapy_cmdline.coverage" NAME="FoxNewsSpider - scrapy.cmdline Coverage Results" MODIFIED="1660130199803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/fox_news_crawler/fox_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$cbs___scrapy_cmdline.coverage" NAME="cbs - scrapy.cmdline Coverage Results" MODIFIED="1659618104170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$CNNSpider___scrapy_cmdline__1_.coverage" NAME="CNNSpider - scrapy.cmdline (1) Coverage Results" MODIFIED="1660810950998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/cnn_news_crawler/cnn_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$tass___scrapy_cmdline.coverage" NAME="tass - scrapy.cmdline Coverage Results" MODIFIED="1659966973564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasscrawler/tasscrawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$news_front_articles___scrapy_cmdline.coverage" NAME="NewsFrontArticleSpider - scrapy.cmdline Coverage Results" MODIFIED="1660128516252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/news_front_crawler/news_front_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$scrapy_cmdline.coverage" NAME="scrapy.cmdline Coverage Results" MODIFIED="1657890832123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasscrawler/tasscrawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$news_front_spider.coverage" NAME="news_front_spider Coverage Results" MODIFIED="1658313440597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/news_front_crawler/news_front_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$TassArticleSpider___scrapy_cmdline.coverage" NAME="TassArticleSpider - scrapy.cmdline Coverage Results" MODIFIED="1660134959587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/tass_crawler/tass_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$RtLinkSpider__scrapy_cmdline.coverage" NAME="RtLinkSpider- scrapy.cmdline Coverage Results" MODIFIED="1660132742710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/rt_com_crawler/rt_com_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$CbsSpider___scrapy_cmdline.coverage" NAME="CbsSpider - scrapy.cmdline Coverage Results" MODIFIED="1660811003672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/cbs_news_crawler/cbs_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$NewIzvSpiderArticles___scrapy_cmdline.coverage" NAME="NewIzvSpiderArticles - scrapy.cmdline Coverage Results" MODIFIED="1660126842794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/izv_news_crawler/izv_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$rt_com___scrapy_cmdline.coverage" NAME="rt.com - scrapy.cmdline Coverage Results" MODIFIED="1658138733469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rt_com_crawler/rt_com_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$spiegel_spider.coverage" NAME="spiegel_spider Coverage Results" MODIFIED="1657893932383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/article_scraper/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$pravda_articles___scrapy_cmdline.coverage" NAME="pravda articles - scrapy.cmdline Coverage Results" MODIFIED="1658241575102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pravda_crawler/pravda_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$spiegel_com___scrapy_cmdline.coverage" NAME="spiegel.com - scrapy.cmdline Coverage Results" MODIFIED="1657893775458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/article_scraper/spiders/" />
+    <SUITE FILE_PATH="coverage/article_scraper$politico_link_scraper.coverage" NAME="politico_link_scraper Coverage Results" MODIFIED="1660134682267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/politico_scraper" />
+    <SUITE FILE_PATH="coverage/article_scraper$scrapy.coverage" NAME="scrapy Coverage Results" MODIFIED="1660809590662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.10/bin" />
+    <SUITE FILE_PATH="coverage/article_scraper$rt_com_articles___scrapy_cmdline.coverage" NAME="RtArticleSpider- scrapy.cmdline Coverage Results" MODIFIED="1660129602397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/rt_com_crawler/rt_com_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$fox___scrapy_cmdline.coverage" NAME="fox - scrapy.cmdline Coverage Results" MODIFIED="1659618108501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/fox_news_crawler/fox_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$abc___scrapy_cmdline.coverage" NAME="AbcNewsSpider - scrapy.cmdline Coverage Results" MODIFIED="1660130015973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/america/abc_news_crawler/abc_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$izv___scrapy_cmdline.coverage" NAME="izv - scrapy.cmdline Coverage Results" MODIFIED="1659618031097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/izv_news_crawler/izv_news_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$rt_com_links___scrapy_cmdline.coverage" NAME="rt.com links - scrapy.cmdline Coverage Results" MODIFIED="1660039774182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rt_com_crawler/rt_com_crawler/spiders" />
+    <SUITE FILE_PATH="coverage/article_scraper$sputnik_com_links___scrapy_cmdline.coverage" NAME="SputnikSpiderArticles - scrapy.cmdline Coverage Results" MODIFIED="1660130379372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/russian/sputnik_crawler/sputnik_crawler/spiders" />
+  </component>
+</project>

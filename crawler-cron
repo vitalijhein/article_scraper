@@ -1,0 +1,4 @@
+# start cron job every 15 minutes
+*/15 * * * * cd /usr/src/app && /usr/local/bin/python . > /proc/$(cat /var/run/crond.pid)/fd/1 2>/proc/$(cat /var/run/crond.pid)/fd/2
+# Start cron job on cron process startup
+@reboot cd /usr/src/app && /usr/local/bin/python . > /proc/$(cat /var/run/crond.pid)/fd/1 2>/proc/$(cat /var/run/crond.pid)/fd/2
