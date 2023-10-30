@@ -101,3 +101,4 @@ The repository uses an `env.default` file that houses the default configuration 
 - `MONGO_INITDB_ROOT_PASSWORD` : used by the `mongo` image to configure the `mongodb` root password.
 
 - For more info on environment customization for `mongo` image, check [here](https://hub.docker.com/_/mongo/)
+# article_scraper
